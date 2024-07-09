@@ -1,0 +1,44 @@
+body{
+    margin: auto;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("geometry-geometric-web-dark-wallpaper-preview.jpg");
+}
+.text{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    width: 262px;
+    height: 61px;
+    font-size: 28px;
+    outline: none;
+    border: 2px solid #205b7a;
+    border-radius: 10px;
+    box-shadow: 5px 9px 12px 0px rgba(32,91,122,0.75);
+-webkit-box-shadow: 5px 9px 12px 0px rgba(32,91,122,0.75);
+-moz-box-shadow: 5px 9px 12px 0px rgba(32,91,122,0.75);
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid #205b7a;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 61px;
+    width: 61px;
+    background-color: #a2bbcf;
+    box-shadow: 10%;
+    box-shadow: 5px 9px 12px 0px rgba(32,91,122,0.75);
+-webkit-box-shadow: 5px 9px 12px 0px rgba(32,91,122,0.75);
+-moz-box-shadow: 5px 9px 12px 0px rgba(32,91,122,0.75);
+}
+.row{
+    margin: 8px 0;
+}
